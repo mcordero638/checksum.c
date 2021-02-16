@@ -1,3 +1,7 @@
+/* Checksum.c        */
+/* marsie Cordero    */
+/* Feb 16, 2021      */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h> /* for using read(..) */
