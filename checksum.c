@@ -1,5 +1,5 @@
 /* Checksum.c        */
-/* marsie Cordero    */
+/* Marsie Cordero    */
 /* Feb 16, 2021      */
 
 #include <stdio.h>
