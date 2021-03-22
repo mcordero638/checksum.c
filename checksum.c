@@ -1,9 +1,15 @@
+/*Checksum.c
+/*Marsie Cordero
+/*Feb 16, 2021
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h> /* for using read(..) */
 
 #define max_int 255
-#define byte char
+#define byte unsigned char
 
 int main (int argc, char * argv[], char ** envp) {
 
@@ -31,7 +37,7 @@ int main (int argc, char * argv[], char ** envp) {
       }
     }
   }
-  complement = ~sum; /* take one's complement */
+  complement = ~sum; 
 
   fprintf(stdout, "Stored Checksum: %d, Computed Checksum: %d\n", checksum, complement);
   if (checksum != complement ) {
