@@ -1,8 +1,7 @@
-/*Checksum.c
-/*Marsie Cordero
-/*Feb 16, 2021
 
-
+/* Checksum.c        */
+/* Marsie Cordero    */
+/* Feb 16, 2021      */
 
 #include <stdio.h>
 #include <stdlib.h>
